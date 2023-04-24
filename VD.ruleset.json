@@ -1,0 +1,56 @@
+{
+    "name": "VD",
+    "description": "VISIONDATA rule set",
+    "rules": [        
+        {
+            "id": "PTE0005",
+            "action": "Info",
+            "justification": "Use PTE Rule for OnPrem Development"
+        },        
+        {
+            "id": "AA0139",
+            "action": "Hidden",
+            "justification": "handled"
+        },
+        {
+            "id": "AA0214",
+            "action": "Hidden",
+            "justification": "not possible to solve"
+        },
+        {
+            "id": "AA0217",
+            "action": "Hidden",
+            "justification": "not possible to solve"
+        },
+        {
+            "id": "AL1027",
+            "action": "Hidden",
+            "justification": "just information"
+        },
+        {
+            "id": "AS0084",
+            "action": "Hidden",
+            "justification": "just information"
+        },
+        {
+            "id": "AS0092",
+            "action": "Hidden",
+            "justification": "just information"
+        },
+        {
+            "id": "AS0053",
+            "action": "Hidden",
+            "justification": "just information"
+        },
+        {
+            "id": "AS0013",
+            "action": "Hidden",
+            "justification": "just information"
+        },
+        {
+            "id": "AA0072",
+            "action": "Hidden",
+            "justification": "just information"
+        }
+    ]
+}

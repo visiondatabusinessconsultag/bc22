@@ -1,0 +1,19 @@
+{
+    "al.codeAnalyzers": [       
+        "${PerTenantExtensionCop}",
+        "${CodeCop}",
+        "${UICop}"
+    ],
+    "al.ruleSetPath": "./vd.ruleset.json",
+    "al.enableCodeAnalysis": true,
+    "al.enableCodeActions": true,
+    "al.enableScriptIntelliSense": true,
+    "al.incrementalBuild": true,    
+
+    "alOutline.addToolTipsToPageFields": true,
+
+    "al-xml-doc.DocumentationBehavior": "Direct",
+    "al-xml-doc.CheckProcedureDocumentationInformationLevel": "Error",
+
+    "NAB.RefreshXlfAfterFindNextUntranslated": true
+}

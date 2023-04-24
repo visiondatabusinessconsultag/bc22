@@ -1,0 +1,49 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Cloud Sandbox",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "",
+            "tenant": "",
+            "authentication": "AAD",        
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "schemaUpdateMode": "ForceSync"
+        },
+        {
+            "name": "Docker Sandbox",
+            "request": "launch",
+            "type": "al",
+            "environmentType":"Sandbox",
+            "server": "http://BC20",
+            "serverInstance": "BC",
+            "tenant": "default",
+            "authentication": "UserPassword",            
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,            
+            "schemaUpdateMode": "ForceSync"
+        },
+        {
+            "name": "OnPrem Environment",
+            "request": "launch",
+            "type": "al",
+            "server": "vdst210.visiondata.local",
+            "port": 7049,
+            "serverInstance": "BC21",
+            "authentication": "Windows",        
+            "tenant": "default",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "schemaUpdateMode": "ForceSync"
+        }                
+    ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "ea9264e6-d611-4750-b9d2-871843c63685",
+  "name": "Customer Core",
+  "publisher": "VISIONDATA business consult AG",
+  "version": "21.1.0.0",
+  "brief": "%1 core business functionality",
+  "description": "%1  core business functionality",
+  "privacyStatement": "https://www.visiondata.de/datenschutz/",
+  "EULA": "https://www.visiondata.de/allgemeine-geschaeftsbedingungen/",
+  "help": "https://https://www.visiondata.de/",
+  "url": "https://https://www.visiondata.de/",
+  "logo": "./resource/pic/logo.png",
+  "features": [ "TranslationFile", "GenerateCaptions" , "NoImplicitWith", "NoPromotedActionProperties"],  
+  "applicationInsightsConnectionString": "InstrumentationKey=9fec9387-2915-4ed9-a769-eff04784faa5;IngestionEndpoint=https://northeurope-2.in.applicationinsights.azure.com/;LiveEndpoint=https://northeurope.livediagnostics.monitor.azure.com/",
+  "target":"Cloud",  
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "21.0.0.0",
+  "application": "21.0.0.0",
+  "idRanges": [
+    {
+      "from": 51000,
+      "to": 51999
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": true
+  },
+  "supportedLocales": ["de-DE","en-US"],
+  "runtime": "10.0"  
+}
